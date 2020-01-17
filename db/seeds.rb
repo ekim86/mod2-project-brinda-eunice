@@ -9,8 +9,8 @@ User.destroy_all
 BeautyProduct.destroy_all
 UserBeautyProduct.destroy_all
 
-u1 = User.create!(name: "brinda", email: "b@email.com")
-u2 = User.create!(name: "eunice", email: "e@email.com")
+u1 = User.create!(name: "brinda", username: "b", password: "b")
+u2 = User.create!(name: "eunice", username: "e", password: "e")
 
 bp1 = BeautyProduct.create!(name: "mascara", price: 10.99)
 bp2 = BeautyProduct.create!(name: "eyeliner", price: 9.99)
