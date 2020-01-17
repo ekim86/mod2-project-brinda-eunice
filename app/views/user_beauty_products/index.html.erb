@@ -1,2 +1,6 @@
 <h1>UserBeautyProducts#index</h1>
 <p>Find me in app/views/user_beauty_products/index.html.erb</p>
+<% @userbeautyproducts.each do |userbeautyproduct| %>
+<%= userbeautyproduct.user.name %><br>
+<%= userbeautyproduct.beauty_product.name %><br><br>
+<% end %>
